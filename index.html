@@ -88,6 +88,11 @@ input {
   -webkit-user-select: none;
   touch-action: manipulation;
 }
+      .hg{
+
+  min-height: 100vh; text-align: center; font-family: none;
+
+}
     </style>
     
     <div class="container">
@@ -102,8 +107,13 @@ input {
         </div>
 
     </div>
+    <div class="hg">
 
-      <p style="min-height: 100vh; text-align: center; font-family: none;">© 2023 Aman, Inc. All rights reserved.</p>
+      <p class='credit-content'>&#169; <span id='getYear'><script>/*<![CDATA[*/ var d = new Date(); var n = d.getFullYear(); document.getElementById('getYear').innerHTML = n; /*]]>*/</script></span> <a expr:href='data:blog.homepageUrl.canonical'>Aman</a><svg color='#3b5998' style='margin-left:3px;width:13px;height:20px' viewBox='0 0 24 24'><path d='M23,12L20.56,9.22L20.9,5.54L17.29,4.72L15.4,1.54L12,3L8.6,1.54L6.71,4.72L3.1,5.53L3.44,9.21L1,12L3.44,14.78L3.1,18.47L6.71,19.29L8.6,22.47L12,21L15.4,22.46L17.29,19.28L20.9,18.46L20.56,14.78L23,12M10,17L6,13L7.41,11.59L10,14.17L16.59,7.58L18,9L10,17Z' fill='#3b5998'/>
+
+</svg> All rights reserved</p>
+
+</div>
     <script>
       function login() {
   var password = document.getElementById('password').value;
